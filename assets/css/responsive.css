@@ -32,6 +32,10 @@
 }
 
 @media (max-width: 991px) {
+	.single-service-box-borderd {
+    padding-left: 15px;
+    border: none;
+}
     .site-header .mainmenu {
     display: none;
 }

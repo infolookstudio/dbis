@@ -31,8 +31,30 @@
 		$(".sidebarlists, .overlay").removeClass("active");
 	});
 
-	// Activate lightcase
-    // $('a[data-rel^=lightcase]').lightcase();
+	// Activate owlCarousel
+	$('.pricing-carousel').owlCarousel({
+	    loop:false,
+	    margin:0,
+	    smartSpeed: 800,
+	    nav: true,
+	    dots: true,
+	    margin: 30,
+	    navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+	    //autoplay: true,
+	    responsiveClass:true,
+	    responsive:{
+	        0:{
+	            items: 1,
+	            margin: 0,
+	        },
+	        768:{
+	            items:2
+	        },
+	        1200:{
+	            items:4
+	        }
+	    }
+	});
 
 
 

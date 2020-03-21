@@ -425,18 +425,14 @@ img {
     padding: 68px 0;
 }
 
-.newslater-area::after {
-    position: absolute;
-    background-repeat: repeat;
-    background-image: url(../img/newslater-sahpe.png);
+.newslater-area::before {
     left: 0;
     top: 0;
     height: 100%;
     width: 100%;
-    z-index: -1;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
+    content: "";
+    position: absolute;
+    background-image: url(../img/newslater-sahpe.png);
 }
 
 .newslater-area .title {
@@ -691,4 +687,44 @@ img {
 
 .sidebarlists .mainmenu ul {
     display: block;
+}
+
+
+.pricing-carousel .owl-nav div {
+    display: inline-block;
+    color: #FF8B03;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 25px;
+    border: 1px solid;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 29px;
+    left: -35px;
+}
+
+
+.pricing-carousel .owl-nav div:hover {
+    color: #fff;
+    background: #FF8B03; 
+}
+
+.pricing-carousel .owl-nav div.owl-next {
+    left: auto;
+    right: -35px;
+}
+
+.pricing-carousel .owl-nav div.disabled { 
+display: none;
+}
+
+.single-service-box-borderd {
+    border-right: 1px solid #EBEBEB;
+    border-left: 1px solid #EBEBEB;
+}
+
+.single-service-box-borderd {
+    padding-left: 50px;
 }
