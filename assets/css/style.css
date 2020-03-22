@@ -211,6 +211,9 @@ img {
 
 .hero-area .site-btn {
     margin-top: 30px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 0 20px #000;
 }
 
 .hero-area {
@@ -478,7 +481,7 @@ img {
 }
 
 .newslater-form button:hover {
-    background: #c16800;
+    background: #F14917;
 }
 
 /*footer css*/
