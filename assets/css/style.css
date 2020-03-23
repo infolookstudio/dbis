@@ -213,7 +213,6 @@ img {
         background: #202124;
     }
 }
-
 .site-btn {
     border-radius: 40px;
     display: inline-block;
@@ -222,9 +221,7 @@ img {
     color: #fff;
     font-weight: 900;
     background: #202124;
-}
-
-
+}  
 
 .hero-area .site-btn {
     margin-top: 30px;
