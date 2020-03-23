@@ -222,7 +222,6 @@ img {
     color: #fff;
     font-weight: 900;
     background: #202124;
-    animation: bg 1s infinite;
 }
 
 
@@ -231,6 +230,7 @@ img {
     margin-top: 30px;
     position: relative;
     z-index: 1;
+    animation: bg 1s infinite;
 }
 
 .hero-area {
