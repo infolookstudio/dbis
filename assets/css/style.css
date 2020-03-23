@@ -199,6 +199,21 @@ img {
     margin-top: 10px;
 }
 
+@keyframes bg {
+    0% {
+        background: #202124;
+        transition: .3s;
+    }
+
+    50% {
+        background: #FE9405;
+    }
+
+    100% {
+        background: #202124;
+    }
+}
+
 .site-btn {
     border-radius: 40px;
     display: inline-block;
@@ -210,18 +225,7 @@ img {
     animation: bg 1s infinite;
 }
 
-@keyframes bg {
-    0% {
-        background: #202124;
-        transition: .3s;
-    }
-    50% {
-        background: #FE9405;
-    }
-    100% {
-        background: #202124;
-    }
-}
+
 
 .hero-area .site-btn {
     margin-top: 30px;
