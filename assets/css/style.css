@@ -202,18 +202,31 @@ img {
 .site-btn {
     border-radius: 40px;
     display: inline-block;
-    background: #202124;
     padding: 12px 26px;
     font-size: 25px;
     color: #fff;
     font-weight: 900;
+    background: #202124;
+    animation: bg 1s infinite;
+}
+
+@keyframes bg {
+    0% {
+        background: #202124;
+        transition: .3s;
+    }
+    50% {
+        background: #FE9405;
+    }
+    100% {
+        background: #202124;
+    }
 }
 
 .hero-area .site-btn {
     margin-top: 30px;
     position: relative;
     z-index: 1;
-    box-shadow: 0 0 20px #000;
 }
 
 .hero-area {
@@ -369,7 +382,6 @@ img {
     margin-top: 30px;
 }
 
-.package-list li {}
 
 .single-package-box:hover {
     background: #202124;
@@ -552,9 +564,6 @@ img {
     font-family: 'Encode Sans Condensed', sans-serif;
     transition: all .3s;
     position: relative;
-}
-
-.sidebarlists ul li a:hover {
 }
 
 .sidebarlists ul li a::after {
