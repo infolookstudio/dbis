@@ -14,6 +14,9 @@
 
 	  });
 
+	// Nice select
+	$('select').niceSelect();
+	
     // background image
 	function background() {
 			var img=$('.bg_img');
