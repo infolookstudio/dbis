@@ -795,7 +795,7 @@ img {
 	color: #fff;
 }
 
-.contact-form .title {
+.section-title .title {
 	font-size: 30px;
 	font-weight: 900;
 	display: inline-block;
@@ -803,7 +803,7 @@ img {
 	padding-bottom: 20px;
 }
 
-.contact-form .title::after {
+.section-title .title::after {
 	left: 0;
 	bottom: 0;
 	width: 70px;
@@ -979,4 +979,76 @@ img {
 	font-size: 30px;
 	font-weight: 400;
 	color: #fff;
+}
+
+
+.breadcrumb-area.about {
+    background: #000;
+}
+
+.breadcrumb-area.about .breadcrumb-text span {
+    display: inline-block;
+    color: #F14918;
+}
+
+.breadcrumb-area.about .breadcrumb-text {
+    padding: 92px 0;
+    position: relative;
+    z-index: 2;
+}
+
+.about-shape {
+    position: absolute;
+    right: 30px;
+    top: 90px;
+    width: 100%;
+    text-align: right;
+}
+
+section.about-area {
+    padding: 70px 0;
+    background: #2C2D31;
+    color: #AAAAAA;
+}
+
+.about-left-box {
+    margin-top: 30px;
+    background: #202125;
+    border-radius: 10px;
+}
+
+.about-left-box .content {
+    padding: 36px 25px;
+    line-height: 30px;
+}
+
+.about-right .section-title {
+    margin-bottom: 60px;
+}
+
+.singel-right-box {
+    background: #202125;
+    padding: 35px 40px;
+    border-radius: 10px;
+}
+
+.singel-right-box .content {
+    line-height: 30px;
+}
+
+.singel-right-box .thumb {
+    flex-basis: 120px;
+}
+
+.singel-right-box .content {
+    flex-basis: 68%;
+    padding-left: 25px;
+}
+
+.about-area .section-title .title {
+    color: #fff;
+}
+
+.about-area .section-title .title span {
+    color: #FC7E07;
 }
