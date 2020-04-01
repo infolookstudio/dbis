@@ -126,10 +126,11 @@ img {
 	padding: 10px 20px;
 	background: #e2e2e2;
 	border-radius: 40px;
+	font-size: 14px;
 }
 
 .mainmenu li:not(:first-child) {
-	margin-left: 15px;
+	margin-left: 10px;
 }
 
 .mainmenu li a:hover {
@@ -1051,4 +1052,41 @@ section.about-area {
 
 .about-area .section-title .title span {
     color: #FC7E07;
+}
+
+.mainmenu ul li {position: relative;}
+
+.mainmenu ul li ul {
+    position: absolute;
+    width: 280px;
+    background: #fff;
+    z-index: 3;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    top: 120%;
+    left: 0;
+    border-top: 5px solid #FE0000;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+}
+
+.mainmenu li ul li a {
+    border-radius: 0;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+}
+
+.mainmenu ul li ul li {
+    margin: 0 !important;
+    flex-basis: 100%;
+    width: 100%;
+}
+
+.mainmenu ul li:hover ul {
+    top: 110%;
+    opacity: 1;
+    visibility: visible;
 }
