@@ -126,11 +126,11 @@ img {
 	padding: 10px 20px;
 	background: #e2e2e2;
 	border-radius: 40px;
-	font-size: 14px;
+	font-size: 13px;
 }
 
 .mainmenu li:not(:first-child) {
-	margin-left: 10px;
+	margin-left: 5px;
 }
 
 .mainmenu li a:hover {
@@ -1056,6 +1056,9 @@ section.about-area {
 
 .mainmenu ul li {position: relative;}
 
+.mainmenu ul li ul a:hover {
+	background: #006A4D;
+}
 .mainmenu ul li ul {
     position: absolute;
     width: 280px;
@@ -1094,4 +1097,9 @@ section.about-area {
     top: 110%;
     opacity: 1;
     visibility: visible;
+}
+
+.call-info .content {
+    display: flex;
+    flex-direction: column;
 }
