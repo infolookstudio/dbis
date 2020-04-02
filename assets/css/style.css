@@ -1070,6 +1070,11 @@ section.about-area {
     visibility: hidden;
     opacity: 0;
     transition: .3s;
+    border-radius: 5px
+}
+
+.mainmenu ul li ul li:last-child a {
+    border-radius: 0px 0px 5px 5px;
 }
 
 .mainmenu li ul li a {
